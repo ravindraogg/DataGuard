@@ -1,4 +1,4 @@
-# DataHeal AI is an autonomous data-healing system designed for IoT and data pipelines.
+# DataHeal AI is an autonomous data-healing system designed for data pipelines.
 #### It detects corrupted, missing, delayed, or anomalous data in real time, reconstructs it safely, and improves itself over time using experience-based learning.
 
 ## Phase 1 – Core Data Healing Model (Foundation)

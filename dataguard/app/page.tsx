@@ -842,7 +842,7 @@ export default function DataHealLanding() {
                   <Stethoscope className="w-6 h-6" />
                 </div>
                 <span className={`text-2xl font-bold ${currentTheme.textPrimary} font-display`}>
-                  <span className="text-blue-500">Data</span>Heal AI
+                  <span className="text-blue-500">Data</span>Guard
                 </span>
               </div>
               <p className={currentTheme.textSecondary}>

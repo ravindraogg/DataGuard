@@ -459,7 +459,7 @@ export default function DataHealLanding() {
             </div>
             <div className="text-xl md:text-2xl font-bold tracking-wider font-display">
               <span className="text-blue-500">Data</span>
-              <span className={currentTheme.textPrimary}>Heal AI</span>
+              <span className={currentTheme.textPrimary}>Guard</span>
             </div>
           </div>
 

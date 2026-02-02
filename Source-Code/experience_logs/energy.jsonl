@@ -1,0 +1,14 @@
+{"sensor": "current", "healed": 1.21, "real": 8.644388264975987, "reward": -1, "error": 0.8600247972545966, "confidence": 1.0, "timestamp": 1769172751.6813865}
+{"sensor": "power", "healed": -0.77, "real": 1167.8146678325554, "reward": -1, "error": 1.0006593511977624, "confidence": 1.0, "timestamp": 1769172759.3279788}
+{"sensor": "frequency", "healed": -1.07, "real": 50.431219196482225, "reward": -1, "error": 1.0212170163055394, "confidence": 1.0, "timestamp": 1769172766.541145}
+{"sensor": "power", "healed": -0.75, "real": 1456.7560689329491, "reward": -1, "error": 1.0005148425436452, "confidence": 1.0, "timestamp": 1769172766.5426657}
+{"sensor": "frequency", "healed": -0.87, "real": 50.00441416327028, "reward": -1, "error": 1.0173984640067844, "confidence": 1.0, "timestamp": 1769172772.1846623}
+{"sensor": "power", "healed": -0.97, "real": 1116.139282431578, "reward": -1, "error": 1.0008690671632727, "confidence": 1.0, "timestamp": 1769172773.8086045}
+{"sensor": "voltage", "healed": -0.43, "real": 232.887400927673, "reward": -1, "error": 1.0018463858426312, "confidence": 1.0, "timestamp": 1769172775.2538526}
+{"sensor": "frequency", "healed": -0.86, "real": 50.09463382955063, "reward": -1, "error": 1.0171675074605036, "confidence": 1.0, "timestamp": 1769172776.260727}
+{"sensor": "power", "healed": -1.02, "real": 2983.568106616403, "reward": -1, "error": 1.0003418725376967, "confidence": 1.0, "timestamp": 1769172776.778367}
+{"sensor": "current", "healed": 1.15, "real": 6.627951417945706, "reward": -1, "error": 0.8264923914671004, "confidence": 1.0, "timestamp": 1769172786.5951476}
+{"sensor": "voltage", "healed": -0.47, "real": 221.65502274330572, "reward": -1, "error": 1.0021204121349612, "confidence": 1.0, "timestamp": 1769172792.1851707}
+{"sensor": "frequency", "healed": -0.88, "real": 49.74056370163256, "reward": -1, "error": 1.0176917978911268, "confidence": 1.0, "timestamp": 1769172797.7508838}
+{"sensor": "power", "healed": -1.03, "real": 1292.5119064746652, "reward": -1, "error": 1.0007968978814357, "confidence": 1.0, "timestamp": 1769172801.3086293}
+{"sensor": "power", "healed": -1.06, "real": 1190.0450915971148, "reward": -1, "error": 1.0008907225511743, "confidence": 1.0, "timestamp": 1769172810.3997087}

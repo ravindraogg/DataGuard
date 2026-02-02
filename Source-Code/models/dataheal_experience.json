@@ -1,0 +1,4862 @@
+[
+  {
+    "timestamp": "2026-01-04T11:52:45.344175+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:46.358350+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:47.365809+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:48.363196+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:49.364744+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:50.378487+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:51.394342+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:52.404218+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:53.416982+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:54.428090+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:55.429625+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:56.438527+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:57.443062+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:58.453816+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:52:59.464372+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:00.467319+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:01.479959+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:02.482067+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:03.490495+00:00",
+    "mode": "warmup",
+    "domain": "agriculture",
+    "confidence": {
+      "tempreature": 0.5,
+      "humidity": 0.5,
+      "water_level": 0.5,
+      "N": 0.5,
+      "P": 0.5,
+      "K": 0.5
+    },
+    "reward": null,
+    "avg_reward": 0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:06.533600+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:07.534386+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:08.532598+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:09.534935+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:10.549842+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:11.560599+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:12.572807+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:13.587996+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:14.584165+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:15.613508+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:16.605160+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:17.626643+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:18.632362+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:19.620316+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:20.646359+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:21.647954+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:22.674872+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:23.687448+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:24.673382+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:25.691152+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:26.687836+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:27.686622+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:28.711039+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:29.723386+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:30.712844+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:31.712132+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:32.731928+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:33.741436+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:34.725184+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:35.754304+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:36.752747+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:37.777825+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:38.795120+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:39.794199+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:40.809687+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:41.836779+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:42.825262+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:43.853439+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:44.861937+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:45.865925+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:46.878698+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:47.881635+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:48.871247+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:49.888303+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:50.906587+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:51.924221+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:52.935121+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 0.0
+  },
+  {
+    "timestamp": "2026-01-04T11:53:53.940130+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0678146622228035
+  },
+  {
+    "timestamp": "2026-01-04T11:53:54.948745+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.067464287052178
+  },
+  {
+    "timestamp": "2026-01-04T11:53:55.945058+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.062051424150578
+  },
+  {
+    "timestamp": "2026-01-04T11:53:56.975923+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0624779255727748
+  },
+  {
+    "timestamp": "2026-01-04T11:53:57.960526+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0613619839396664
+  },
+  {
+    "timestamp": "2026-01-04T11:53:58.977801+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0617866520372894
+  },
+  {
+    "timestamp": "2026-01-04T11:53:59.984504+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0660463937567173
+  },
+  {
+    "timestamp": "2026-01-04T11:54:00.997521+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.068173401196746
+  },
+  {
+    "timestamp": "2026-01-04T11:54:02.026902+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0651018001762582
+  },
+  {
+    "timestamp": "2026-01-04T11:54:03.035819+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.667,
+    "drift_detected": false,
+    "drift_score": 1.0710952354315724
+  },
+  {
+    "timestamp": "2026-01-04T11:54:04.031232+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0739683740131412
+  },
+  {
+    "timestamp": "2026-01-04T11:54:05.044661+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.072930932621747
+  },
+  {
+    "timestamp": "2026-01-04T11:54:06.074779+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0723211345090096
+  },
+  {
+    "timestamp": "2026-01-04T11:54:07.073928+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.072137205208995
+  },
+  {
+    "timestamp": "2026-01-04T11:54:08.085697+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0753446931422288
+  },
+  {
+    "timestamp": "2026-01-04T11:54:09.101396+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0714082220747594
+  },
+  {
+    "timestamp": "2026-01-04T11:54:10.089721+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.078107696990385
+  },
+  {
+    "timestamp": "2026-01-04T11:54:11.095761+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0711887116671557
+  },
+  {
+    "timestamp": "2026-01-04T11:54:12.108953+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0682278634890134
+  },
+  {
+    "timestamp": "2026-01-04T11:54:13.117997+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.064093503122283
+  },
+  {
+    "timestamp": "2026-01-04T11:54:14.112075+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0671888294618321
+  },
+  {
+    "timestamp": "2026-01-04T11:54:15.119409+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0686752780391087
+  },
+  {
+    "timestamp": "2026-01-04T11:54:16.138995+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0649878868590474
+  },
+  {
+    "timestamp": "2026-01-04T11:54:17.155727+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0621947452344092
+  },
+  {
+    "timestamp": "2026-01-04T11:54:18.140070+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 1.0,
+    "drift_detected": false,
+    "drift_score": 1.0657880126948494
+  },
+  {
+    "timestamp": "2026-01-04T11:54:19.165571+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0618840005799126
+  },
+  {
+    "timestamp": "2026-01-04T11:54:20.158288+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 1.0,
+    "drift_detected": false,
+    "drift_score": 1.0597359368738728
+  },
+  {
+    "timestamp": "2026-01-04T11:54:21.168970+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0602747567906314
+  },
+  {
+    "timestamp": "2026-01-04T11:54:22.174832+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0603698954794674
+  },
+  {
+    "timestamp": "2026-01-04T11:54:23.165410+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0620202577173483
+  },
+  {
+    "timestamp": "2026-01-04T11:54:24.179849+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 1.0596085781984843
+  },
+  {
+    "timestamp": "2026-01-04T11:54:25.197323+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0599212331540113
+  },
+  {
+    "timestamp": "2026-01-04T11:54:26.219104+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0580740771924722
+  },
+  {
+    "timestamp": "2026-01-04T11:54:27.215433+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.054286760662159
+  },
+  {
+    "timestamp": "2026-01-04T11:54:28.231248+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0548859808095672
+  },
+  {
+    "timestamp": "2026-01-04T11:54:29.218213+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0575105371870093
+  },
+  {
+    "timestamp": "2026-01-04T11:54:30.243252+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0586053512262772
+  },
+  {
+    "timestamp": "2026-01-04T11:54:31.246842+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0616794824776405
+  },
+  {
+    "timestamp": "2026-01-04T11:54:32.248984+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0600387841253465
+  },
+  {
+    "timestamp": "2026-01-04T11:54:33.259910+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0547657791300233
+  },
+  {
+    "timestamp": "2026-01-04T11:54:34.279168+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0532857173775014
+  },
+  {
+    "timestamp": "2026-01-04T11:54:35.286272+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0506173218306896
+  },
+  {
+    "timestamp": "2026-01-04T11:54:36.300883+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0538855184538116
+  },
+  {
+    "timestamp": "2026-01-04T11:54:37.310685+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0565135827847574
+  },
+  {
+    "timestamp": "2026-01-04T11:54:38.317823+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0638462774801063
+  },
+  {
+    "timestamp": "2026-01-04T11:54:39.303039+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0648884659651003
+  },
+  {
+    "timestamp": "2026-01-04T11:54:40.319133+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0627737142149245
+  },
+  {
+    "timestamp": "2026-01-04T11:54:41.316786+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0677416942441702
+  },
+  {
+    "timestamp": "2026-01-04T11:54:42.338740+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0674694858838685
+  },
+  {
+    "timestamp": "2026-01-04T11:54:43.344335+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0694797667775013
+  },
+  {
+    "timestamp": "2026-01-04T11:54:44.369678+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0674545692341557
+  },
+  {
+    "timestamp": "2026-01-04T11:54:45.389709+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0646722612920108
+  },
+  {
+    "timestamp": "2026-01-04T11:54:46.404377+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0668575281118382
+  },
+  {
+    "timestamp": "2026-01-04T11:54:47.405578+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0697523556637563
+  },
+  {
+    "timestamp": "2026-01-04T11:54:48.407205+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0694816928856306
+  },
+  {
+    "timestamp": "2026-01-04T11:54:49.432686+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.069094128878744
+  },
+  {
+    "timestamp": "2026-01-04T11:54:50.449913+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0712613284271113
+  },
+  {
+    "timestamp": "2026-01-04T11:54:51.462657+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0683415740549844
+  },
+  {
+    "timestamp": "2026-01-04T11:54:52.457721+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0685863330985175
+  },
+  {
+    "timestamp": "2026-01-04T11:54:53.472250+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0659202019285383
+  },
+  {
+    "timestamp": "2026-01-04T11:54:54.486649+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0667608184248205
+  },
+  {
+    "timestamp": "2026-01-04T11:54:55.492028+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0695475350649755
+  },
+  {
+    "timestamp": "2026-01-04T11:54:56.490816+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.069009310090719
+  },
+  {
+    "timestamp": "2026-01-04T11:54:57.491138+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0682564709133098
+  },
+  {
+    "timestamp": "2026-01-04T11:54:58.511084+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0625790306745682
+  },
+  {
+    "timestamp": "2026-01-04T11:54:59.514812+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0634479815432314
+  },
+  {
+    "timestamp": "2026-01-04T11:55:00.529255+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0597264687022114
+  },
+  {
+    "timestamp": "2026-01-04T11:55:01.538671+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.070692872861249
+  },
+  {
+    "timestamp": "2026-01-04T11:55:02.530237+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0754884238532876
+  },
+  {
+    "timestamp": "2026-01-04T11:55:03.547471+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0734306376190264
+  },
+  {
+    "timestamp": "2026-01-04T11:55:04.567134+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0689813866222486
+  },
+  {
+    "timestamp": "2026-01-04T11:55:05.575728+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0730089575883957
+  },
+  {
+    "timestamp": "2026-01-04T11:55:06.578640+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0711187826397575
+  },
+  {
+    "timestamp": "2026-01-04T11:55:07.587910+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.068691117857903
+  },
+  {
+    "timestamp": "2026-01-04T11:55:08.588479+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0685017116965898
+  },
+  {
+    "timestamp": "2026-01-04T11:55:09.608856+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.064439522739262
+  },
+  {
+    "timestamp": "2026-01-04T11:55:10.615783+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0650778142372122
+  },
+  {
+    "timestamp": "2026-01-04T11:55:11.637154+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0606241482159344
+  },
+  {
+    "timestamp": "2026-01-04T11:55:12.646894+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0601536419767033
+  },
+  {
+    "timestamp": "2026-01-04T11:55:13.646204+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0636673395111458
+  },
+  {
+    "timestamp": "2026-01-04T11:55:14.657058+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0625562323910733
+  },
+  {
+    "timestamp": "2026-01-04T11:55:15.683626+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0631573166863852
+  },
+  {
+    "timestamp": "2026-01-04T11:55:16.679401+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.064183626776514
+  },
+  {
+    "timestamp": "2026-01-04T11:55:17.691550+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0647556459974468
+  },
+  {
+    "timestamp": "2026-01-04T11:55:18.700745+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0650902820156836
+  },
+  {
+    "timestamp": "2026-01-04T11:55:19.735030+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0675377946747402
+  },
+  {
+    "timestamp": "2026-01-04T11:55:20.734363+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.071289111245957
+  },
+  {
+    "timestamp": "2026-01-04T11:55:21.756392+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0709304672745794
+  },
+  {
+    "timestamp": "2026-01-04T11:55:22.747152+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0679230412556704
+  },
+  {
+    "timestamp": "2026-01-04T11:55:23.760885+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0718318848577697
+  },
+  {
+    "timestamp": "2026-01-04T11:55:24.779012+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.068114395205758
+  },
+  {
+    "timestamp": "2026-01-04T11:55:25.787889+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0689132364990812
+  },
+  {
+    "timestamp": "2026-01-04T11:55:26.795715+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0691571731304037
+  },
+  {
+    "timestamp": "2026-01-04T11:55:27.782147+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0713844367918712
+  },
+  {
+    "timestamp": "2026-01-04T11:55:28.800715+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0675671025771865
+  },
+  {
+    "timestamp": "2026-01-04T11:55:29.829757+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0682873835557094
+  },
+  {
+    "timestamp": "2026-01-04T11:55:30.841197+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0684537219458832
+  },
+  {
+    "timestamp": "2026-01-04T11:55:31.867473+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0658918723454958
+  },
+  {
+    "timestamp": "2026-01-04T11:55:32.867946+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.060027646473713
+  },
+  {
+    "timestamp": "2026-01-04T11:55:33.870533+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0562535388999927
+  },
+  {
+    "timestamp": "2026-01-04T11:55:34.884279+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0592538980982764
+  },
+  {
+    "timestamp": "2026-01-04T11:55:35.874270+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.06179543491301
+  },
+  {
+    "timestamp": "2026-01-04T11:55:36.883606+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0607816305000195
+  },
+  {
+    "timestamp": "2026-01-04T11:55:37.877611+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.06391244999689
+  },
+  {
+    "timestamp": "2026-01-04T11:55:38.878484+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0612768840262363
+  },
+  {
+    "timestamp": "2026-01-04T11:55:39.899742+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0621925307661433
+  },
+  {
+    "timestamp": "2026-01-04T11:55:40.890360+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.061586120276379
+  },
+  {
+    "timestamp": "2026-01-04T11:55:41.888779+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0633227489689896
+  },
+  {
+    "timestamp": "2026-01-04T11:55:42.894208+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.059934289709153
+  },
+  {
+    "timestamp": "2026-01-04T11:55:43.900073+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.060470738153361
+  },
+  {
+    "timestamp": "2026-01-04T11:55:44.917467+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0624946118276635
+  },
+  {
+    "timestamp": "2026-01-04T11:55:45.942769+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0667119206909692
+  },
+  {
+    "timestamp": "2026-01-04T11:55:46.942469+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.068346108281839
+  },
+  {
+    "timestamp": "2026-01-04T11:55:47.947451+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": 1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.068636647968156
+  },
+  {
+    "timestamp": "2026-01-04T11:55:48.958044+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.072149609352734
+  },
+  {
+    "timestamp": "2026-01-04T11:55:49.972635+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.069422560792758
+  },
+  {
+    "timestamp": "2026-01-04T11:55:50.975467+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -1.0,
+    "drift_detected": false,
+    "drift_score": 1.0708789802106609
+  },
+  {
+    "timestamp": "2026-01-04T11:55:52.002598+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0635375170721086
+  },
+  {
+    "timestamp": "2026-01-04T11:55:53.001953+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0590306529787143
+  },
+  {
+    "timestamp": "2026-01-04T11:55:54.009836+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.059590634889999
+  },
+  {
+    "timestamp": "2026-01-04T11:55:55.011220+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0655531848561604
+  },
+  {
+    "timestamp": "2026-01-04T11:55:56.043204+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.064782361355604
+  },
+  {
+    "timestamp": "2026-01-04T11:55:57.183629+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.066227331973468
+  },
+  {
+    "timestamp": "2026-01-04T11:55:58.042183+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0647794050400299
+  },
+  {
+    "timestamp": "2026-01-04T11:55:59.055929+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0613287901231532
+  },
+  {
+    "timestamp": "2026-01-04T11:56:00.055125+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0626380048179744
+  },
+  {
+    "timestamp": "2026-01-04T11:56:01.068544+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.068272849193843
+  },
+  {
+    "timestamp": "2026-01-04T11:56:02.095025+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.06991055545369
+  },
+  {
+    "timestamp": "2026-01-04T11:56:03.113291+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": NaN,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": 1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0696936327507538
+  },
+  {
+    "timestamp": "2026-01-04T11:56:04.124102+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0710743449659283
+  },
+  {
+    "timestamp": "2026-01-04T11:56:05.127460+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": NaN,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": -1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.667,
+    "drift_detected": false,
+    "drift_score": 1.0741290155896828
+  },
+  {
+    "timestamp": "2026-01-04T11:56:06.150970+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.0726369012547161
+  },
+  {
+    "timestamp": "2026-01-04T11:56:07.174810+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": -1.0,
+      "K": -1.0
+    },
+    "avg_reward": 0.0,
+    "drift_detected": false,
+    "drift_score": 1.069745837517755
+  },
+  {
+    "timestamp": "2026-01-04T11:56:08.169032+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "multi_missing",
+    "confidence": {
+      "tempreature": NaN,
+      "humidity": 1.0,
+      "water_level": NaN,
+      "N": NaN,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0720886614774003
+  },
+  {
+    "timestamp": "2026-01-04T11:56:09.164039+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "no_anomaly",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": -1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": 1.0
+    },
+    "avg_reward": 0.333,
+    "drift_detected": false,
+    "drift_score": 1.0733400221208378
+  },
+  {
+    "timestamp": "2026-01-04T11:56:10.192542+00:00",
+    "mode": "model",
+    "domain": "agriculture",
+    "anomaly_type": "single_missing",
+    "confidence": {
+      "tempreature": 1.0,
+      "humidity": 1.0,
+      "water_level": 1.0,
+      "N": 1.0,
+      "P": 1.0,
+      "K": NaN
+    },
+    "reward": {
+      "tempreature": -1.0,
+      "humidity": 1.0,
+      "water_level": -1.0,
+      "N": -1.0,
+      "P": 1.0,
+      "K": -1.0
+    },
+    "avg_reward": -0.333,
+    "drift_detected": false,
+    "drift_score": 1.0718047280131833
+  }
+]

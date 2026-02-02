@@ -1,150 +1,218 @@
-import os
-import json
-import torch
-import pandas as pd
-import numpy as np
 from flask import Flask, request, jsonify
-from collections import deque
-from datetime import datetime, timezone
+import torch
 import torch.nn as nn
+import numpy as np
+from collections import deque
+import os, json, time
 
-# ===================== CONFIG =====================
-
+# ---------------- CONFIG ----------------
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+MODELS_DIR = "models"
+INDEX_FILE = "core_model_index.pt"
+BASE_CONF_THRESHOLD = 0.6
+ERROR_TOLERANCE = 0.25 # Increased tolerance for smoother rewards
+LOG_DIR = "experience_logs"
 
-MODEL_PATH = "dataheal_core_model.pt"
-EXPERIENCE_PATH = "dataheal_experience.json"
-
-WINDOW = 20
-WARMUP_SIZE = 20
-
+os.makedirs(LOG_DIR, exist_ok=True)
 app = Flask(__name__)
 
-# ===================== LOAD MODEL =====================
-
-ckpt = torch.load(MODEL_PATH, map_location=DEVICE, weights_only=False)
-
-SENSOR_COLS = ckpt["signal_roles"]["heal_targets"]
-CONTEXT_COLS = ckpt["signal_roles"]["context_signals"]
-
-sensor_mean = pd.Series(ckpt["sensor_mean"])
-sensor_std = pd.Series(ckpt["sensor_std"])
-
-# ===================== MODEL =====================
-
+# ---------------- MODEL ----------------
 class HealingModel(nn.Module):
-    def __init__(self):
+    def __init__(self, input_size, output_size):
         super().__init__()
-        self.lstm = nn.LSTM(
-            input_size=len(SENSOR_COLS) + len(CONTEXT_COLS),
-            hidden_size=64,
-            batch_first=True
-        )
-        self.fc = nn.Linear(64, len(SENSOR_COLS))
+        self.lstm = nn.LSTM(input_size, 64, batch_first=True)
+        self.fc = nn.Linear(64, output_size)
 
     def forward(self, x):
         x, _ = self.lstm(x)
         return self.fc(x[:, -1])
 
+# ---------------- LOAD EXPERTS ----------------
+EXPERTS = {}
 
-model = HealingModel().to(DEVICE)
-model.load_state_dict(ckpt["model_state"])
-model.eval()
+def load_experts():
+    # Check if index exists before loading
+    index_path = os.path.join(MODELS_DIR, INDEX_FILE)
+    if not os.path.exists(index_path):
+        print("⚠️ Model index not found. Run training first.")
+        return
+        
+    index = torch.load(index_path, map_location=DEVICE)
 
-# ===================== STATE =====================
+    for domain, file in index["domains"].items():
+        if domain == "other": continue
+        
+        ckpt_path = os.path.join(MODELS_DIR, file)
+        ckpt = torch.load(ckpt_path, map_location=DEVICE)
+        model = HealingModel(len(ckpt["sensors"]), len(ckpt["sensors"])).to(DEVICE)
+        model.load_state_dict(ckpt["model_state"])
+        model.eval()
 
-buffer = deque(maxlen=WINDOW)
-stats = {
-    "total": 0,
-    "warmup": 0,
-    "model": 0
+        EXPERTS[domain] = {
+            "model": model,
+            "sensors": ckpt["sensors"],
+            "mean": ckpt["sensor_mean"],
+            "std": ckpt["sensor_std"],
+            "window": ckpt["window"],
+            "buffer": deque(maxlen=ckpt["window"]),
+            "last_known": {}
+        }
+
+load_experts()
+
+# ---------------- DOMAIN LOCK ----------------
+DOMAIN_LOCK = {}
+KNOWN_SIGNATURES = {
+    ",".join(sorted(['temperature','humidity','water_level'])): "agriculture",
+    ",".join(sorted(['voltage','current','frequency','power'])): "energy",
+    ",".join(sorted(['heart_rate','spo2','body_temperature'])): "healthcare",
+    ",".join(sorted(['temperature','vibration','current','acoustic'])): "industrial"
+
 }
 
-# ===================== EXPERIENCE STORE =====================
+def route_domain(keys):
+    sig = ",".join(sorted(keys))
+    if sig in KNOWN_SIGNATURES:
+        return KNOWN_SIGNATURES[sig], 1.0
+    return "other", 0.0
 
-if not os.path.exists(EXPERIENCE_PATH):
-    with open(EXPERIENCE_PATH, "w") as f:
-        json.dump([], f)
+# ---------------- PHASE 5: EXPERIENCE ----------------
+PENDING = {}
 
+def log_experience(domain, record):
+    path = os.path.join(LOG_DIR, f"{domain}.jsonl")
+    with open(path, "a") as f:
+        f.write(json.dumps(record) + "\n")
 
-def log_experience(record):
-    with open(EXPERIENCE_PATH, "r") as f:
-        data = json.load(f)
+def evaluate(healed, real):
+    err = abs(healed - real) / max(abs(real), 1e-6)
+    reward = 1 if err <= ERROR_TOLERANCE else -1
+    return reward, err
 
-    data.append(record)
+# ---------------- PHASE 6: POLICY ENGINE ----------------
+def load_recent_logs(domain, limit=100):
+    path = os.path.join(LOG_DIR, f"{domain}.jsonl")
+    if not os.path.exists(path): return []
+    with open(path) as f:
+        return [json.loads(l) for l in f.readlines()[-limit:]]
 
-    with open(EXPERIENCE_PATH, "w") as f:
-        json.dump(data, f, indent=2)
+def trust_from_rewards(rewards):
+    if not rewards: return 0.7  # Start with higher initial trust
+    # Smooth trust calculation to prevent single-error lockouts
+    return max(0.0, min(1.0, (sum(rewards)/len(rewards) + 1)/2))
 
-# ===================== ROUTES =====================
+def phase6_policy(domain, confidence, missing):
+    logs = load_recent_logs(domain)
+    domain_rewards = [l["reward"] for l in logs]
+    domain_trust = trust_from_rewards(domain_rewards)
 
+    threshold = BASE_CONF_THRESHOLD
+
+    # Strategy selection with lowered thresholds
+    if confidence < threshold:
+        strategy = "PASSTHROUGH"
+    elif domain_trust < 0.15: # Lowered from 0.2 to be more permissive
+        strategy = "LAST_KNOWN"
+    else:
+        strategy = "MODEL_INFER"
+
+    return {
+        "strategy": strategy,
+        "threshold": round(threshold,2),
+        "domain_trust": round(domain_trust,2),
+    }
+
+# ---------------- HEALING ----------------
+def heal_stream(domain, data, confidence):
+    if domain == "other":
+        return data, "passthrough_other", {"reason":"unknown domain"}
+
+    expert = EXPERTS[domain]
+    missing = [s for s in expert["sensors"] if data.get(s) is None]
+
+    # 1. PRE-POLICY BUFFER UPDATE: Ensure LSTM always has data
+    vec = []
+    for s in expert["sensors"]:
+        val = data.get(s)
+        if val is None:
+            val = expert["last_known"].get(s, expert["mean"][s])
+        vec.append(val)
+    expert["buffer"].append(vec)
+
+    # 2. POLICY EVALUATION
+    policy = phase6_policy(domain, confidence, missing)
+    healed = data.copy()
+
+    # 3. WARMUP CHECK: Priority over strategy
+    if len(expert["buffer"]) < expert["window"]:
+        for s in missing:
+            healed[s] = expert["last_known"].get(s, expert["mean"][s])
+        return healed, "warmup", policy
+
+    # 4. APPLY CHOSEN STRATEGY
+    if policy["strategy"] == "PASSTHROUGH":
+        return data, "policy_passthrough", policy
+
+    if policy["strategy"] == "LAST_KNOWN":
+        for s in missing:
+            healed[s] = expert["last_known"].get(s, expert["mean"][s])
+        return healed, "policy_last_known", policy
+
+    # 5. MODEL_INFER
+    x = torch.tensor([expert["buffer"]], dtype=torch.float32).to(DEVICE)
+    mean_vals = torch.tensor(list(expert["mean"].values()), device=DEVICE)
+    std_vals = torch.tensor(list(expert["std"].values()), device=DEVICE)
+    x = (x - mean_vals) / (std_vals + 1e-6)
+
+    with torch.no_grad():
+        pred = expert["model"](x)[0].cpu().numpy()
+
+    ts = time.time()
+    for i, s in enumerate(expert["sensors"]):
+        if data.get(s) is None:
+            # Map prediction back to original scale
+            healed[s] = round(float(pred[i]), 2)
+            PENDING[(domain, s)] = {
+                "healed": healed[s],
+                "confidence": confidence,
+                "timestamp": ts
+            }
+        expert["last_known"][s] = healed[s]
+
+    return healed, "expert_inference", policy
+
+# ---------------- API ----------------
 @app.route("/heal", methods=["POST"])
 def heal():
     data = request.json
-    stats["total"] += 1
+    sig = ",".join(sorted(data.keys()))
 
-    buffer.append(data)
+    if sig not in DOMAIN_LOCK:
+        DOMAIN_LOCK[sig] = route_domain(list(data.keys()))
 
-    # Warmup phase
-    if len(buffer) < WARMUP_SIZE:
-        stats["warmup"] += 1
-        return jsonify({
-            **data,
-            "mode": "warmup",
-            "confidence": 0.5
-        })
+    domain, confidence = DOMAIN_LOCK[sig]
+    healed, mode, policy = heal_stream(domain, data, confidence)
 
-    stats["model"] += 1
+    # Feedback Loop for Phase 5
+    for k, v in data.items():
+        key = (domain, k)
+        if key in PENDING and v is not None:
+            exp = PENDING.pop(key)
+            reward, err = evaluate(exp["healed"], v)
+            log_experience(domain, {
+                "sensor": k, "healed": exp["healed"], "real": v,
+                "reward": reward, "error": err, "timestamp": time.time()
+            })
 
-    # Build input window
-    df = pd.DataFrame(list(buffer))
+    return jsonify({
+  "domain": domain,
+  "confidence": confidence,
+  "mode": mode,
+  "policy": policy,
+  "data": healed
+})
 
-    for col in SENSOR_COLS + CONTEXT_COLS:
-        if col not in df:
-            df[col] = 0.0
-
-    x = df[SENSOR_COLS + CONTEXT_COLS].copy()
-    x[SENSOR_COLS] = (x[SENSOR_COLS] - sensor_mean) / sensor_std
-    x = x.fillna(0).values.astype(np.float32)
-
-    x = torch.tensor(x).unsqueeze(0).to(DEVICE)
-
-    with torch.no_grad():
-        pred = model(x).cpu().numpy()[0]
-
-    healed = data.copy()
-    missing_fields = []
-
-    for i, col in enumerate(SENSOR_COLS):
-        if data.get(col) is None:
-            healed[col] = round(
-                float(pred[i] * sensor_std[col] + sensor_mean[col]),
-                2
-            )
-            missing_fields.append(col)
-
-    confidence = round(1.0 - (len(missing_fields) / max(len(SENSOR_COLS), 1)), 3)
-
-    healed["mode"] = "model"
-    healed["confidence"] = confidence
-
-    # ---------------- EXPERIENCE LOG (PHASE 3) ----------------
-    log_experience({
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        "mode": "model",
-        "missing_fields": missing_fields,
-        "confidence": confidence
-    })
-
-    return jsonify(healed)
-
-
-@app.route("/stats")
-def stats_view():
-    return jsonify(stats)
-
-
-# ===================== RUN =====================
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("🚀 DataHeal Server Online (Phase 6 - Trust Fixed)")
+    app.run(port=5001)

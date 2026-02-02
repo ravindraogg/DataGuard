@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const Device = require('../models/Device');
 const jwt = require('jsonwebtoken');
-
+const crypto = require('crypto');
 // --- Middleware to verify JWT and get User ID ---
 const verifyToken = (req, res, next) => {
   const token = req.header('auth-token');
@@ -30,28 +30,24 @@ router.get('/', verifyToken, async (req, res) => {
 // --- ADD NEW DEVICE ---
 router.post('/', verifyToken, async (req, res) => {
   const { 
-    name, deviceId, domain, facility, zone, location, 
-    sourceType, endpoint, authKey, healthRules, repairLogging, notifyRepairs 
+    name, domain, facility, location, sourceType, 
+    endpoint, healthRules, repairLogging 
   } = req.body;
 
-  // Check if deviceId already exists globally
-  const idExists = await Device.findOne({ deviceId });
-  if (idExists) return res.status(400).send('Device ID already exists.');
+  // Generate a unique Device ID (e.g., DH-XXXXX)
+  const generatedId = `DH-${crypto.randomBytes(3).toString('hex').toUpperCase()}`;
 
   const device = new Device({
-    userId: req.user.id, // Link to the user
+    userId: req.user.id,
     name,
-    deviceId,
+    deviceId: generatedId, // Assigned by backend
     domain,
     facility,
-    zone,
     location,
     sourceType,
     endpoint,
-    authKey,
     healthRules,
-    repairLogging,
-    notifyRepairs
+    repairLogging
   });
 
   try {

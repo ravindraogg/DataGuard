@@ -1,14 +1,22 @@
-const axios = require("axios");
+import express from "express";
+import cors from "cors";
 
-function rand(min, max) { return Math.random() * (max - min) + min; }
-function maybeNull(val) { return Math.random() < 0.25 ? null : val; }
+const app = express();
+app.use(express.json());
+app.use(cors());
 
-// Generators match the columns found in your actual CSV files
+const PORT = 7000;
+const DEVICE_IDS = ["D1001", "D1002", "D1003", "D1004"];
+
+// --- Your New Generation Logic ---
+const rand = (min, max) => Math.random() * (max - min) + min;
+const maybeNull = (val) => (Math.random() < 0.05 ? null : val);
+
 const generators = {
   agriculture: () => ({
     temperature: maybeNull(rand(20, 35)),
     humidity: maybeNull(rand(40, 90)),
-    water_level: maybeNull(rand(10, 50)) // Mapped from soil_moisture
+    water_level: maybeNull(rand(10, 50))
   }),
   industrial: () => ({
     temperature: maybeNull(rand(50, 90)),
@@ -29,17 +37,49 @@ const generators = {
   })
 };
 
-async function send() {
-  const domains = Object.keys(generators);
-  const type = domains[Math.floor(Math.random() * domains.length)];
-  const payload = generators[type]();
+// State for the latest packet
+let currentDomain = "agriculture";
+let latestPacket = {};
 
-  try {
-    const res = await axios.post("http://127.0.0.1:5000/heal", payload);
-    console.log(`[${type.toUpperCase()}] Mode: ${res.data.mode} | Domain: ${res.data.domain}`);
-  } catch (e) {
-    console.log("Error:", e.message);
+// Update Loop
+setInterval(() => {
+  const payload = generators[currentDomain]();
+  latestPacket = {
+    deviceId: DEVICE_IDS[Math.floor(Math.random() * DEVICE_IDS.length)],
+    timestamp: Date.now(),
+    ...payload
+  };
+}, 2000);
+
+// --- Endpoints ---
+
+// Endpoint to change the simulated domain on the fly
+app.post("/api/simulator/domain", (req, res) => {
+  const { domain } = req.body;
+  if (generators[domain]) {
+    currentDomain = domain;
+    return res.json({ status: "success", simulated_domain: domain });
   }
-}
+  res.status(400).json({ error: "Invalid domain" });
+});
 
-setInterval(send, 500);
+app.get("/api/latest", (req, res) => {
+  res.json({
+    source: "external_org_stream",
+    domain: currentDomain,
+    data: latestPacket,
+  });
+});
+
+app.get("/api/schema", (req, res) => {
+  const schema = {};
+  Object.keys(latestPacket).forEach(key => {
+    schema[key] = latestPacket[key] === null ? "null" : typeof latestPacket[key];
+  });
+  res.json({ source: "external_org_stream", schema });
+});
+
+app.listen(PORT, () => {
+  console.log(`✅ Multi-Domain Simulator running at http://127.0.0.1:${PORT}`);
+  console.log(`📡 Currently simulating: ${currentDomain}`);
+});

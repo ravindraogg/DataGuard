@@ -9,8 +9,8 @@ const deviceRoute = require('./routes/devices');
 dotenv.config({ path: './.env' });
 
 const app = express();
-const EXTERNAL_ORG_LATEST_URL = "http://127.0.0.1:7000/api/latest";
-const HEAL_ENGINE_URL = "http://127.0.0.1:5001/heal";
+const EXTERNAL_ORG_LATEST_URL = process.env.EXTERNAL_ORG_LATEST_URL;
+const HEAL_ENGINE_URL = process.env.HEAL_ENGINE_URL;
 app.use(express.json());
 app.use(cors());
 
@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.get("/api/external/fetch-heal", async (req, res) => {
   try {
-    const extResp = await axios.get(EXTERNAL_ORG_LATEST_URL, { timeout: 8000 });
+    const extResp = await axios.get(`${EXTERNAL_ORG_LATEST_URL}/api/latest`, { timeout: 8000 });
 
     const extPacket = extResp.data?.data || {};
 
@@ -29,7 +29,7 @@ app.get("/api/external/fetch-heal", async (req, res) => {
 
     const { deviceId: _d, timestamp: _t, recordId, ...sensorData } = extPacket;
 
-    const healResp = await axios.post(HEAL_ENGINE_URL, sensorData, {
+    const healResp = await axios.post(`${HEAL_ENGINE_URL}/heal`, sensorData, {
       timeout: 8000,
       headers: { "Content-Type": "application/json" },
     });

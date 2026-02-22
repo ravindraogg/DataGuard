@@ -80,6 +80,6 @@ app.get("/api/schema", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Multi-Domain Simulator running at http://127.0.0.1:${PORT}`);
-  console.log(`📡 Currently simulating: ${currentDomain}`);
+  console.log(`Multi-Domain Simulator running at http://127.0.0.1:${PORT}`);
+  console.log(`Currently simulating: ${currentDomain}`);
 });

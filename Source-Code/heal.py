@@ -34,7 +34,7 @@ def load_experts():
     # Check if index exists before loading
     index_path = os.path.join(MODELS_DIR, INDEX_FILE)
     if not os.path.exists(index_path):
-        print("⚠️ Model index not found. Run training first.")
+        print("WARNING: Model index not found. Run training first.")
         return
         
     index = torch.load(index_path, map_location=DEVICE)
@@ -214,5 +214,7 @@ def heal():
 
 
 if __name__ == "__main__":
-    print("🚀 DataHeal Server Online (Phase 6 - Trust Fixed)")
-    app.run(port=5001)
+    host = os.environ.get("HOST", "0.0.0.0")
+    port = int(os.environ.get("PORT", 7860))
+    print(f"DataHeal Server Online (Phase 6 - Trust Fixed) on {host}:{port}")
+    app.run(host=host, port=port)

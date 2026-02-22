@@ -182,6 +182,10 @@ def heal_stream(domain, data, confidence):
     return healed, "expert_inference", policy
 
 # ---------------- API ----------------
+@app.route("/", methods=["GET"])
+def health():
+    return jsonify({"status": "ok", "service": "DataHeal Engine", "domains": list(EXPERTS.keys())})
+
 @app.route("/heal", methods=["POST"])
 def heal():
     data = request.json
